@@ -1,0 +1,59 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.svg{ /*d3 библиотека*/
+    width: 1000vw;
+    height: 1000vh;
+    
+    background-color: pink;
+}
+.tel{
+    width: 500px;
+    height: 300px;
+    fill: rgb(89, 50, 3);
+}
+.monit{
+    width: 370px;
+    height: 250px;
+    fill: rgb(63, 63, 207);
+
+}
+.pult{
+    width: 70px;
+    height: 250px;
+    fill: darkslategrey;
+}
+.butt{
+    width: 50px;
+    height: 30px;
+    fill: rgb(9, 8, 8);
+}
+.circle{
+    fill: rgb(17, 60, 60);
+}
+.nog{
+    fill: darkslategrey;
+    width: 30px;
+    height: 27px;
+}
+polyline{
+    fill:black;
+stroke-width: 6px;
+stroke: black;
+}
+/* .red{
+    width: 100px;
+    height: 100px;
+    fill: red;
+    stroke: seagreen;
+}
+.polyline{
+fill: transparent;
+stroke: seagreen;
+stroke-width: 5;
+} */
+

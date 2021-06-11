@@ -1,0 +1,334 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    color: #000;
+}
+html, footer{
+    background: rgba(0, 0, 0, 0.11);
+}
+body{
+    width: 1440px;
+    margin: auto;
+    /* background: white; */
+}
+/* .first, .second, .third, .fourth, .fifth, .six, .seven{
+    background: white;
+} */
+main{
+background: white;
+}
+header{
+    width: 100%;
+    position: fixed;
+}
+.header-menu ul{
+    display: flex;
+    margin: 18px 331px 18px 0;
+}
+.header-menu li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px ;
+    color: black;
+    transition: 0.7s;
+}
+.header-menu li:hover{
+    transform: scale(1.05);
+}
+.header-menu li:hover a{
+    color: darkblue;
+}
+.logo-button{
+    width: 726px;
+}
+.logo{
+    margin: 22px 0;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+.header-button{
+    margin: 12px 0px;
+}
+button{
+    width: 80px;
+    height: 36px;
+    background: #0065F2;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: #0065F2;
+}
+.wrap{
+    width: 465px;
+    margin: 147px 165px 0 165px;
+}
+
+.tagline{
+    font-size: 18px;
+    padding: 0px 0 34px 0;
+}
+h1{
+    width: 445px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+.placeholder{
+    margin-top: 53px;
+    border: transparent;
+
+}
+.placeholder input{
+   background: #09132110;
+   width: 290px;
+    height: 48px;
+}
+.placeholder button{
+    width: 124px;
+    height: 48px;
+}
+.placeholder_button{
+    padding-left: 16px;
+    border: transparent;
+
+}
+.text{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.margin_text1{
+    margin: 20px 0 88px 0;
+
+}
+
+.wrap-img{
+    margin: 120px 165px 60px 0;
+}
+.second{
+    margin: 60px 450px;
+    text-align: center;
+    width: 540px;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-top: 12px;
+}
+.margin-top_20{
+    margin-top: 20px;
+    line-height: 24px;
+}
+.third{
+    margin: 0 165px;
+}
+.third img{
+    width: 555px;
+    height: 380px;
+}
+h3{
+   font-size: 24px;
+   line-height: 32px;
+   font-style: bold; 
+}
+.section3{
+    width: 450px;
+    margin: 84px 0;
+}
+.graf{
+    margin: 60px 0;
+}
+.section3 .text{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+.section3 p a{
+    color:#0065F2;
+}
+.section3 p:hover a{
+    color: #468bec; 
+}
+.block{
+    width: 190px;
+    margin-top: 49px;
+
+}
+.section3-block1{
+    margin-right: 65px;
+}
+.section3-block2 img, .section3-block1 img {
+    width: 32px;
+    height: 32px;
+}
+h4{
+    font-size: 16px;
+   line-height: 24px;
+   font-style: normal; 
+   margin-top: 16px;
+}
+.section3-blocks .text{
+    margin-top: 8px;
+}
+.fourth, .fifth{
+    margin: 0px 165px;
+}
+.fourth-left{
+    margin: 137px 110px 136px 0px;
+}
+.fifth img{
+    margin-right: 110px;
+}
+.fourth .text, .fifth .text{
+margin-top: 16px;
+display: flex;
+align-items: center;
+}
+.fourth ul{
+    margin-top: 40px;
+    margin-left: -39px ;
+}
+.payment-link{
+    display: block;
+    background-image: url(../img/payment.png);
+    margin-left: 39px;
+}
+.paypal{
+    width: 91.63px;
+    height: 35px;
+}
+
+.applepay{
+    width: 55.16px;
+    height: 33.68px;
+    background-position-x: -129px;
+}
+.fpay{
+    width: 45.16px;
+    height: 35.68px;
+    background-position-x: -209px;
+    }
+.samsungpay{
+    width: 110.16px;
+    height: 33.68px;
+    background-position-x: 510px;
+} 
+.fourth-right, .fifth-left{
+    width: 555px;
+    height: 380px;
+    margin: 60px 0;
+}
+.fifth-item::before{
+    content: url(../img/Check\ 2.png);
+    width: 20px;
+    height: 24px;
+    padding: 0 7px;
+}
+.w100{
+    background-image: url(../img/bg.png);
+    width: 100%;
+    height: 500px;
+}
+.six{
+    margin: 60px 260px;
+}
+
+h5{
+   font-size: 18px;
+   line-height: 28px;
+   text-align: center; 
+}
+.six-left{
+    width: 350px;
+    margin-right: 110px;
+}
+.six-right{
+    width: 350px;
+    padding-left: 110px;
+
+}
+.six-right p, .six-left p{
+    margin: 16px 0 16px 0;
+    text-align: center;
+}
+.six-right{
+    border-left: 3px solid rgba(0, 0, 0, 0.237);
+}
+.six-right a, .six-left a{
+    color:#0065F2;
+display: flex;
+justify-content: center;}
+.seven{
+    margin: 0 165px;
+}
+.seven-first{
+    width: 264px;
+    margin: 44px 190px 88px 0;
+}
+.seven-first p{
+    margin: 28px 0;}
+.seven-first input{
+width: 218px;
+height: 48px;
+position: relative;
+    }
+.input{
+    background: rgba(0, 0, 0, 0.037);
+}
+.e-mail{
+    padding-left: 10px;
+    border: transparent;
+    background: rgba(0, 0, 0, 0);
+}
+.input a{
+width: 24px;
+height: 24px;
+margin-top: 12px;
+    }
+.seven-second{
+    margin: 80px 235px 83px 0;
+    line-height: 30px;
+}
+.seven-second ul{
+    width: 240px;
+    height: 141px;
+}
+footer{
+    margin: 20px 165px;
+    background: transparent;
+}
+.icons-link{
+    display: flex;
+    margin-bottom: 15px;
+}
+.icons-link img{
+    padding-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+.seven-third{
+    margin: 80px 0 128px 0;
+}
+
+.grey{
+    color: rgba(0, 0, 0, 0.237);
+    font-size: 14px;
+    line-height: 24px;
+}
+.foot-link{
+    margin-left: 20px;
+}

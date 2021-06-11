@@ -1,0 +1,88 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+      background: rgb(72, 219, 72);
+      width: 100vw;
+}
+.car{
+    width: 290px;
+    height: 114px;
+    text-align: center;
+    top: 200px;   
+    left: 100%; 
+    position: fixed;
+    animation: car 5s linear normal infinite;
+}
+.firecar {
+    position: relative;
+    z-index: 10;
+}
+@keyframes car{
+    50% {
+        left: 0;
+    }
+    51%{
+        transform: scaleX(1);
+    }
+   
+    52%{
+        transform: scaleX(-1);
+    }
+    53%{
+        left: 5px;
+    }
+    98%{
+        transform: scaleX(-1);
+    }
+   
+    99%{
+        transform: scaleX(-);
+    }
+    100%{
+        left: 100%;
+    }
+
+   
+}
+.item{
+    position: absolute;
+}
+.wheel1{
+    left: 0px;
+}
+.wheel2{
+    right: 34px;
+}
+.wheel1, .wheel2{
+    animation: 2s linear 0s normal none infinite running item;
+    top: 74px;
+}
+@keyframes item{
+    100% {
+        transform: rotate(0deg);
+      }
+      0% {
+        transform: rotate(360deg);
+      }
+}
+.mihalka{
+    width: 25px;
+    height: 36px;
+    position: absolute;
+    left: 67px;
+    top: -24px;
+    border-radius: 50px 50px 32px 34px;
+    background: rgb(18, 109, 214);
+    animation: mihalka 2s linear infinite;
+    box-shadow: 0 0 10px rgb(18, 109, 214);
+}
+
+@keyframes mihalka{
+    50%{
+        background-color: red;
+        box-shadow: 0 0 20px red;
+    }
+}

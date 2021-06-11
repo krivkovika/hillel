@@ -1,0 +1,25 @@
+*, html, body {
+    padding:0;
+
+}
+#wrap{
+    height: 500px;
+}
+.box{
+    height: 150px;
+}
+div{
+    height: 120px !important;
+    background: red;
+    width: 50%;
+}
+div>div{
+    background: blue;
+}
+.box-2{
+    height: 300px;
+}
+p.text-white{
+background: salmon;
+color: rgba(red, green, blue, alpha);
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,400;0,700;1,700&family=Ubuntu:wght@500&display=swap');
+
+*, body, html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body, .logo{
+    background: #eff1fd;
+    text-decoration: none;
+}
+.wrap{
+    width: 700px;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+
+h1, p{
+    text-align: center;
+    color: #161d6f;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 130px;
+    background: none;
+}
+h1{
+    font-size: 121px;
+    font-family: 'Playfair Display', serif;
+    padding-top: 100px;
+    line-height: 120px;
+    padding-bottom: 20px;
+}
+/* nav{
+    display: block;
+}
+.item{
+    display: block; 
+}
+li{
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+
+} */
+ nav{
+    margin: auto;
+    width: 186px;
+    margin-top: 20px;
+} 
+ul{
+    list-style: none;
+    width: 199px;
+    margin: auto;
+}
+.item{
+    display: block;
+    float: left;
+    padding-left: 11px;
+}
+
+.discount{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #161d6f;
+
+}
+.sale{
+    background: #ffe097;
+    width: 450px;
+    height: 45px;
+    padding-top: 2px;
+    margin: auto;
+}
+.sale:hover{
+    background: rgba(163, 155, 36, 0.699);
+}
+.lorem{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.check{
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.www{
+    font-size: 25px;
+    padding-top: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.img{
+    position: fixed;
+}
+.heart1{
+left: -270px;
+top: 20px;
+}
+.heart2{
+    left: 1100px;
+    top: 400px;
+
+}
+.egg1{
+top: 20px;
+left: 1300px;
+}
+.egg2{
+    top: 800px;
+    left: 300px;
+
+}
+.egg3{
+    top: 800px;
+    left: 900px;
+
+}
+.egg4{
+    top: 700px;
+    left: -25px;
+
+}
+.egg5{
+    top: 20px;
+    left: 1000px;
+}

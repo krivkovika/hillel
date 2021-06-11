@@ -1,0 +1,22 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.yellow{
+    background: yellow;
+    border: 1px #000 solid;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: relative;
+    top: 300px;
+    left: 300px;
+    transform-origin: 10px;
+    transition: 2s linear;
+}
+.yellow:hover{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,39 @@
+*, html, body{
+    padding: 0px;
+    margin: 0px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    padding: 20px;
+    font-size: 18px;
+font-weight: 700;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+padding-left: 30px;
+}
+p{
+    text-indent: 30px; /* абзац */
+    padding: 0 20px 0 20px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: justify;
+}
+.p0{
+text-align: center;
+padding-top: 70px;
+
+}
+.p1{
+    padding-top: 30px;
+}
+.p3{
+    text-align: center;
+}
+.h2{
+    margin-left: 20px;
+}
