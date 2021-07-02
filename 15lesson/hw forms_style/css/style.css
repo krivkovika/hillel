@@ -92,14 +92,14 @@ input[type="radio"]:checked ~ .btn, input[type="checkbox"]:checked{
 .down::before{
     content: "\02EF";
 }
-.down::before, .up::before{
-    position: absolute;
-    top: -36px;
-    font-size: 50px;
-    margin-bottom: 43px;
-}
 .up::before{
     content: "\02F0";
+}
+.down::before, .up::before{
+    /* position: absolute;
+    top: -36px; */
+    font-size: 50px;
+    margin-bottom: 43px;
 }
 .right::before, .left::before, .down::before, .up::before{
     color: rgba(0, 0, 0, .5);
@@ -236,12 +236,7 @@ input[type="checkbox"]:checked ~ .switch__btn::before{
     position: absolute;
     top: 219px;
     left: 20px;
-
-}
-.search_for::after{
-    content: url(../img/icons8-поиск-16.png);
+    background: url(../img/icons8-поиск-16.png) no-repeat 11px 10px;
     display: block;
-    position: absolute;
-    top: 9px;
-    left: 5px;
+
 }

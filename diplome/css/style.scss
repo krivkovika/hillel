@@ -1,0 +1,31 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+$bg: blue;
+body{
+    background-color: $bg;
+}
+// .menu{
+//     ul{
+//         display: flex;
+//     }
+//     &-item{
+//         background: #000;
+//         &-link{
+//             color: white;
+//         }
+//     }
+//     .item{
+//         a{
+//             &:hover{
+//                 background: #000;
+//             }
+//             &:before{
+//                 content: "";
+//             }
+//         }
+//     }
+// }
