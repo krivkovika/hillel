@@ -8,24 +8,39 @@ $bg: blue;
 body{
     background-color: $bg;
 }
-// .menu{
-//     ul{
-//         display: flex;
-//     }
-//     &-item{
-//         background: #000;
-//         &-link{
-//             color: white;
-//         }
-//     }
-//     .item{
-//         a{
-//             &:hover{
-//                 background: #000;
-//             }
-//             &:before{
-//                 content: "";
-//             }
-//         }
-//     }
-// }
+.menu{
+    ul{
+        display: flex;
+    }
+    &-item{
+        background: #000;
+        &-link{
+            color: white;
+        }
+    }
+    .item{
+        a{
+            &:hover{
+                background: #000;
+            }
+            &:before{
+                content: "";
+            }
+            @media screen {
+                
+            }
+            @include text;
+        }
+
+    }
+}
+@mixin text {
+    font: {
+        family: Arial;
+        size: 12px;
+        weight: bold;
+    }
+    line-height: 14px;
+    color: white;
+    
+}
